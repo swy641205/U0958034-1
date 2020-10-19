@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+<H1>FORM 1</H1>
 
-You can use the [editor on GitHub](https://github.com/tsuyu1115/U0958034-1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<form action="https://www.obdesign.com.tw/inpage.aspx" method="GET">
+<input type="text" name="category">
+<input type="submit" value="GO">
+</form>
+<H1>FORM 2</H1>
+<form action="https://www.obdesign.com.tw/inpage.aspx" method="GET">
+<select name="no">
+<option value="11252">本週新品</option>
+<option value="6967">✪熱銷補貨到</option>
+<option value="10491" selected>輕柔雪紡</option>
+<option value="121018">-5KG顯瘦褲</option>
+<option value="112159">長版上衣</option>
+</select>
+<input type="submit" value="GO">
+</form>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<H1>FORM 3</H1>
+<form action="https://www.obdesign.com.tw/inpage.aspx?" method="GET">
+<input type="text" name="keywords">
+<input type="hidden" name="no" value="6964">
+<input type="submit" value="搜尋OB嚴選">
+</form>
 
-### Markdown
+<H1>FORM 4 HTML5</H1>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<input type="datetime-local" min="2015-10-01T00:00" max="2015-10-31T00:00">
 
-```markdown
-Syntax highlighted code block
+<input type="tel" pattern="[0][9][0-9]{8}" placeholder="09xxxxxxxx">
+<input type="url" placeholder="http://it-life-wyx.blogspot.tw/">
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tsuyu1115/U0958034-1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<H1>HTML5 時間/日期/電話</H1>
